@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+
 import google.generativeai as genai
 
 from rag import ask_rag
